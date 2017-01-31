@@ -6,7 +6,7 @@ function mouseListener () {
 	event.preventDefault();
 	console.log("something is happening");
 	$('.rashad').addClass('title-transition');
-	$('.fixed-list').addClass('roles-transition');
-
+	$('.active').addClass('roles-transition');
+	$('.branding').addClass('branding-transition');
   });
 };

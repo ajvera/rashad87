@@ -26,6 +26,7 @@ html {
   text-align: center;
   padding-top: 15%;
   padding-left: 5%;
+  min-width: 300px;
 }
 
 .title-transition {
@@ -96,7 +97,7 @@ li {
   font-size: 18px;
   min-width:100%;
   display:inline;
-  border-right:none;
+  border-right:solid black 1px;
 }
 
 
@@ -117,10 +118,20 @@ li {
 
 @keyframes roles {
   from {color:black;
-    border-color: black;
-    border-right: none;
+    border-right: solid black 1px;
     }
   to {color:white;
-    border-color: white;
     border-right: solid white 1px;}
+}
+
+@keyframes branding {
+  from {color:black;}
+  to {color:white;}
+}
+
+.branding-transition {
+  animation-name: branding;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+
 }
