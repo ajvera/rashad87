@@ -1,3 +1,5 @@
-# Sinatra Crud Example
+# RASHAD87
 
-Super basic full crud example with one resource.  
+##Purpose
+
+Graphic design portfolio for artist Rashad87
