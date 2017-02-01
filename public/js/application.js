@@ -10,7 +10,7 @@ function imageHoverHandler () {
 }
 
 function mouseListener () {
-  $('.index-body').mousemove(function(event){
+  $(document).mousemove(function(event){
 	event.preventDefault();
 	$('.rashad').addClass('title-transition');
 	$('.active').addClass('roles-transition');
