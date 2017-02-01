@@ -3,12 +3,6 @@ $(document).ready(function() {
 });
 
 
-function imageHoverHandler () {
-	$('.project-images').onHover(function(event)) {
-		event.preventDefault();
-	}
-}
-
 function mouseListener () {
   $(document).mousemove(function(event){
 	event.preventDefault();
