@@ -26,6 +26,23 @@ html {
   background-color: white;
 }
 
+.project-body {
+  margin:0;
+  background-color: black
+}
+
+.project-images {
+  margin:1px;
+  max-width:30%;
+  max-height:30%;
+}
+
+.projects-container {
+  margin:auto;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
 .about {
   font-family: "BebasNeueRegular", "normal", sans-serif;
   font-size: 4em;
@@ -35,6 +52,20 @@ html {
   padding-top: 15%;
   padding-left: 70px;
   min-width: 300px;
+}
+
+#project-tagline {
+  text-align: center;
+  color:red;
+  font-size: 12px;
+  font-family: "BebasNeueRegular", "normal", sans-serif;
+  margin:50px;
+}
+
+.last-image {
+  position: relative;
+  max-width: 91%;
+  margin: auto;
 }
 
 .fixed-position {
